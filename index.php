@@ -2,45 +2,64 @@
 $sliderIsActive=true;
 include_once('header.php');
 ?>
-
-<div class="wrapper row3">
-    <section class="container">
-        <div class="clear">
-            <div class="col-1-3 first">
-                <div class="boxholder push30"><img src="<?=ROOT_URL.$homepage_content[0]['url']?>" alt=""></div>
-                <h2 class="uppercase"><?=$homepage_content[0]['title']?></h2>
-                <p><?=$homepage_content[0]['contentBrief']?>
-                    <a href="#" class="button small rnd8 blue">Read More &raquo;</a></p>
+<div class="wrapper row3 bg-tc bg-cover" style="background-image:url('images/backgrounds/1.jpg');">
+    <div class="block overlay">
+        <section class="container">
+            <div class="col-1-3 first center">
+                <div class="hpcircle"><a href="#"><span class="fa fa-random"><em>Random</em></span></a></div>
             </div>
-            <div class="col-1-3">
-                <div class="boxholder push30"><img src="<?=ROOT_URL.$homepage_content[0]['url']?>" alt=""></div>
-                <h2 class="uppercase"><?=$homepage_content[1]['title']?></h2>
-                <p class="push30"><?=$homepage_content[1]['contentBrief']?>
-                <a href="#" class="button small rnd8 blue">Read More &raquo;</a></p>
+            <div class="col-2-3 fadeInLeftBig">
+                <h2 class="uppercase">Who we are</h2>
+                <p>
+                    Sustinable Technology Solution is the software development and information technology (IT) service support center for STS Analytics. We’re a dedicated team of software and IT professionals who provide technical support to STS’s businesses. At STS, we help our internal clients focus on their business solutions while we focus on the technology. STS is a wholly owned subsidiary of ISO, a STS Analytics business.
+                </p>
+                <div class="pushright"><a href="#" class="button medium rnd8 blue push10">Lorem Ipsum</a><a href="#" class="button medium rnd8 orange">Dolor Sit Amet</a></div>
             </div>
-            <div class="col-1-3">
-                <h2 class="uppercase">From The Blog</h2>
-                <ul class="nospace latestlist">
-                    <li class="clear">
-                        <div class="imgl boxholder"><img src="images/homepage/2.jpg" alt=""></div>
-                        <p class="nospace push10">Lorem ipsum dolor sit amet, consectetur adi pisc ing elit vivamus&hellip;</p>
-                        <p class="nospace"><a href="#" class="button small rnd8 blue">Read More &raquo;</a></p>
-                    </li>
-                    <li class="clear">
-                        <div class="imgl boxholder"><img src="images/homepage/3.jpg" alt=""></div>
-                        <p class="nospace push10">Lorem ipsum dolor sit amet, consectetur adi pisc ing elit vivamus&hellip;</p>
-                        <p class="nospace"><a href="#" class="button small rnd8 blue">Read More &raquo;</a></p>
-                    </li>
-                    <li class="clear">
-                        <div class="imgl boxholder"><img src="images/homepage/4.jpg" alt=""></div>
-                        <p class="nospace push10">Lorem ipsum dolor sit amet, consectetur adi pisc ing elit vivamus&hellip;</p>
-                        <p class="nospace"><a href="#" class="button small rnd8 blue">Read More &raquo;</a></p>
-                    </li>
-                </ul>
-            </div>
+            <div class="clear"></div>
+        </section>
+    </div>
+</div>
+<div class="container">
+<div class="wrapper row">
+    <div class="col-lg-12">
+        <br>
+        <div class="sec-ttl">
+            <h1>Our services</h1>
         </div>
-        <div class="clear"></div>
-    </section>
+        <br>
+    </div>
+    <div class="row icon-list">
+
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wow fadeInLeft" style="visibility: visible; animation-name: fadeInLeft;">
+            <img class="img-circle" src="images/services/icon-comp-mobile.png" alt="Software and Application
+Development">
+            <h4>Software and<br>application development</h4>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
+            <img class="img-circle" src="images/services/icon-chart.png" alt="Business Operations Support
+&amp; Virtual Risk Assessment">
+            <h4>Business operations support<br>and virtual risk assessment</h4>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wow fadeInRight" style="visibility: visible; animation-name: fadeInRight;">
+            <img class="img-circle" src="images/services/icon-data.png" alt="Data Processiong,
+Data Analysis &amp; Reporting">
+            <h4>Data processing,<br>analysis, and reporting</h4>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wow fadeInLeft" style="visibility: visible; animation-name: fadeInLeft;">
+            <img class="img-circle" src="images/services/icon-code.png" alt="User Interface/Experience
+UI/UX Design">
+            <h4>User interface (UI) and<br>user experience (UX) design services</h4>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
+            <img class="img-circle" src="images/services/icon-cloud.png" alt="IT and Infrastructure Support">
+            <h4>24/7 infrastructure<br>and IT support</h4>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wow fadeInRight" style="visibility: visible; animation-name: fadeInRight;">
+            <img class="img-circle" src="images/services/icon-qc.png" alt="Software Quality Control
+&amp; Test Automation"><h4>Software quality control<br>and test automation</h4>
+        </div>
+    </div>
+</div>
 </div>
 <div class="wrapper row3 bg-tc bg-cover" style="background-image:url('images/backgrounds/2.jpg');">
     <div class="block overlay">
@@ -48,13 +67,14 @@ include_once('header.php');
             <div class="col-1-3 first center">
                 <div class="hpcircle"><a href="#"><span class="fa fa-random"><em>Random</em></span></a></div>
             </div>
-            <div class="col-2-3">
-                <h2 class="uppercase">lorem ipsum dolor sit amet, consectetur adipiscing elit vivamus.</h2>
+            <div class="col-2-3 fadeInLeftBig">
+                <h2 class="uppercase">What we do</h2>
                 <ul class="list arrow push30">
-                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus id pharetra.</li>
-                    <li>Lorem ipsum dolor sit amet, consectetur.</li>
-                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                    <li>Lorem ipsum dolor sit amet, consectetur vivamus.</li>
+                    <li>Scalable software development solutions</li>
+                    <li>Certified and experienced IT engineers and analysts</li>
+                    <li>Industry-standard process management</li>
+                    <li>Collaborative development</li>
+                    <li>Enterprise security compliance</li>
                 </ul>
                 <div class="pushright"><a href="#" class="button medium rnd8 blue push10">Lorem Ipsum</a><a href="#" class="button medium rnd8 orange">Dolor Sit Amet</a></div>
             </div>
@@ -63,7 +83,7 @@ include_once('header.php');
     </div>
 </div>
 <div class="wrapper row3">
-    <section class="container">
+    <section class="container" data-aos="fade-right">
         <div class="col-1-2 first">
             <div class="center push50">
                 <h2 class="uppercase">Our Team</h2>

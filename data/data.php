@@ -1,21 +1,21 @@
 <?php
 $company=array(
-  'name'=>'Sustinable Technology System',
+  'name'=>'Sustinable Technology Solution',
   'stname'=>'STS'
 );
 $slider=array(
   array(
       'id'=>1,
       'url'=>'images/slider/1.jpg',
-      'title'=>'STS',
-      'subtitle1'=>'your business into a',
-      'subtitle2'=>'successful business',
-      'linkText'=>'With Our Help'
+      'title'=>'',
+      'subtitle1'=>'STS,the software development and information technology service',
+      'subtitle2'=>'with enhanced team.',
+      'linkText'=>'Who are we'
   ),
   array(
       'id'=>2,
       'url'=>'images/slider/2.jpg',
-      'title'=>'Vivamus',
+      'title'=>'',
       'subtitle1'=>'sed sem tristique',
       'subtitle2'=>'non eleifend',
       'linkText'=>'Read more'
@@ -23,10 +23,10 @@ $slider=array(
   array(
       'id'=>2,
       'url'=>'images/slider/3.jpg',
-      'title'=>'Mauris',
-      'subtitle1'=>'sed sem tristique',
-      'subtitle2'=>'non eleifend',
-      'linkText'=>'Read more'
+      'title'=>'',
+      'subtitle1'=>'We’re looking for talented people',
+      'subtitle2'=>'to join our collaborative team',
+      'linkText'=>'Join Us Now'
   )
 );
 $homepage_content=array(

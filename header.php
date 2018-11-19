@@ -7,7 +7,10 @@ require("data/data.php"); ?>
     <meta charset="UTF-8">
     <title><?=$company['name']?></title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <link href="<?= ROOT_URL ?>/css/main.css" rel="stylesheet" type="text/css" media="all">
+    <link rel="icon" href="<?= ROOT_URL ?>/images/logo.png" type="image/png" sizes="16x16">
+    <link href="<?= ROOT_URL ?>/css/main.css" rel="stylesheet" type="text/css" media="all"/>
+    <link rel="stylesheet" href="<?=ROOT_URL?>/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
     <style type="text/css">
         #osfooter{display:block;position:fixed;bottom:0;left:0;width:100%;height:300px;margin-bottom:-300px;overflow:hidden;background-color:transparent;z-index:5000;text-indent:-5000px;}
@@ -57,7 +60,7 @@ require("data/data.php"); ?>
 <div class="wrapper row1">
     <header role="banner" id="header" class="clear">
         <div id="logo">
-            <h1><span class="fa fa-refresh"></span> <a href="<?=ROOT_URL?>/index.php"><?=$company['name']?></a></h1>
+            <h1><span class="fa"><img src="<?= ROOT_URL ?>/images/logo.png" class="img-responsive" style="width:50px;"/></span> <a href="<?=ROOT_URL?>/index.php"><?=$company['stname']?></a></h1>
         </div>
         <nav role="navigation" id="topnav" class="clear">
             <ul class="clear">
