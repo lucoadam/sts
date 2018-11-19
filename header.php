@@ -74,7 +74,6 @@ require("data/data.php"); ?>
                 </li>
                 <li><a href="<?=ROOT_URL?>/pages/contact.php" title="Contact">Contacts</a></li>
                 <li><a href="<?=ROOT_URL?>/pages/clients.php" title="Clients">Clients</a></li>
-                <li><a href="<?=ROOT_URL?>/pages/faq.php" title="FAQ">FAQ</a></li>
                         <!--<li><a href="pages/archives.php" title="Archives">Archives</a></li>
                         <li><a href="pages/404.php" title="404">404</a></li>
                         <li><a href="pages/sidebar-left.php" title="Sidebar Left">Sidebar Left</a></li>

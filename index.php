@@ -30,31 +30,31 @@ include_once('header.php');
     </div>
     <div class="row icon-list">
 
-        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wow fadeInLeft" style="visibility: visible; animation-name: fadeInLeft;">
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wow center fadeInLeft" style="margin:0;visibility: visible; animation-name: fadeInLeft;">
             <img class="img-circle" src="images/services/icon-comp-mobile.png" alt="Software and Application
 Development">
             <h4>Software and<br>application development</h4>
         </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wow center fadeIn" style="margin:0;visibility: visible; animation-name: fadeIn;">
             <img class="img-circle" src="images/services/icon-chart.png" alt="Business Operations Support
 &amp; Virtual Risk Assessment">
             <h4>Business operations support<br>and virtual risk assessment</h4>
         </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wow fadeInRight" style="visibility: visible; animation-name: fadeInRight;">
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wow center fadeInRight" style="margin:0;visibility: visible; animation-name: fadeInRight;">
             <img class="img-circle" src="images/services/icon-data.png" alt="Data Processiong,
 Data Analysis &amp; Reporting">
             <h4>Data processing,<br>analysis, and reporting</h4>
         </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wow fadeInLeft" style="visibility: visible; animation-name: fadeInLeft;">
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wow center fadeInLeft" style="margin:0;visibility: visible; animation-name: fadeInLeft;">
             <img class="img-circle" src="images/services/icon-code.png" alt="User Interface/Experience
 UI/UX Design">
             <h4>User interface (UI) and<br>user experience (UX) design services</h4>
         </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wow center fadeIn" style="margin:0;visibility: visible; animation-name: fadeIn;">
             <img class="img-circle" src="images/services/icon-cloud.png" alt="IT and Infrastructure Support">
             <h4>24/7 infrastructure<br>and IT support</h4>
         </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wow fadeInRight" style="visibility: visible; animation-name: fadeInRight;">
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wow center fadeInRight" style="margin:0;visibility: visible; animation-name: fadeInRight;">
             <img class="img-circle" src="images/services/icon-qc.png" alt="Software Quality Control
 &amp; Test Automation"><h4>Software quality control<br>and test automation</h4>
         </div>
