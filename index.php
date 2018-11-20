@@ -82,6 +82,33 @@ UI/UX Design">
         </section>
     </div>
 </div>
+<div class="container">
+<div class="heading-block">
+    <p><span style="font-weight: 400;">We work with some of leading entrepreneurs, small businesses and corporate organisations to improve their digital platforms, easily and cost-efficiently.</span></p>
+</div>
+<div class="clients-slider slick-initialized slick-slider"><div aria-live="polite" class="slick-list draggable"><div class="slick-track" style="opacity: 1; width: 1110px; transform: translate3d(0px, 0px, 0px);" role="listbox"><div class="slick-slide slick-current slick-active" data-slick-index="0" aria-hidden="false" style="width: 1110px;" tabindex="-1" role="option" aria-describedby="slick-slide00"><div><div class="img-wrap" style="width: 20%; display: inline-block;">
+                        <img src="https://ebpearls.com.au/wp-content/uploads/2018/05/ebpearls-client-NSW-government.png" alt="ebpearls-client-NSW-government">
+                    </div><div class="img-wrap" style="width: 20%; display: inline-block;">
+                        <img src="https://ebpearls.com.au/wp-content/uploads/2018/05/ebpearls-client-WWF.png" alt="ebpearls-client-WWF">
+                    </div><div class="img-wrap" style="width: 20%; display: inline-block;">
+                        <img src="https://ebpearls.com.au/wp-content/uploads/2018/05/ebpearls-client-habitatforhumanity.jpg" alt="ebpearls-client-habitatforhumanity">
+                    </div><div class="img-wrap" style="width: 20%; display: inline-block;">
+                        <img src="https://ebpearls.com.au/wp-content/uploads/2018/05/ebpearls-client-usyd.png" alt="ebpearls-client-usyd">
+                    </div><div class="img-wrap" style="width: 20%; display: inline-block;">
+                        <img src="https://ebpearls.com.au/wp-content/uploads/2018/05/ebpearls-client-unsw.png" alt="ebpearls-client-unsw">
+                    </div></div><div><div class="img-wrap" style="width: 20%; display: inline-block;">
+                        <img src="https://ebpearls.com.au/wp-content/uploads/2018/04/rosesonly-ebpearls.png" alt="rosesonly-ebpearls">
+                    </div><div class="img-wrap" style="width: 20%; display: inline-block;">
+                        <img src="https://ebpearls.com.au/wp-content/uploads/2018/04/optus-ebpearls.png" alt="optus-ebpearls">
+                    </div><div class="img-wrap" style="width: 20%; display: inline-block;">
+                        <img src="https://ebpearls.com.au/wp-content/uploads/2018/05/ebpearls-client-newscorp-australia.jpeg" alt="ebpearls-client-newscorp-australia">
+                    </div><div class="img-wrap" style="width: 20%; display: inline-block;">
+                        <img src="https://ebpearls.com.au/wp-content/uploads/2018/05/ebpearls-client-heartresearchaustralia.png" alt="ebpearls-client-heartresearchaustralia">
+                    </div><div class="img-wrap" style="width: 20%; display: inline-block;">
+                        <img src="https://ebpearls.com.au/wp-content/uploads/2018/05/ebpearls-client-grazia.png" alt="ebpearls-client-grazia">
+                    </div></div><div></div></div></div></div>
+</div>
+</div>
 <div class="wrapper row3">
     <section class="container" data-aos="fade-right">
         <div class="col-1-2 first">
@@ -112,7 +139,7 @@ UI/UX Design">
         </div>
         <div class="col-1-2">
             <div class="center push50">
-                <h2 class="uppercase">Testimonials</h2>
+                <h2 class="uppercase">Views</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque venenatis, urna vel fringilla sagittis, nunc dolor pellentesque mauris.</p>
             </div>
             <div class="flex-container flex-rtl">
@@ -122,7 +149,6 @@ UI/UX Design">
                             <div class="testimonial opt2 clear">
                                 <blockquote>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque venenatis, urna vel fringilla sagittis, nunc dolor pellentesque mauris, non feugiat odio dui in dui. Aenean ut facilisis dui. Etiam in rutrum nisi.</p>
-                                    <p>Quisque porta scelerisque est, sit amet interdum nisi semper in. Etiam eu hendrerit nibh. Aenean porttitor molestie accumsan.</p>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque venenatis, urna vel fringilla sagittis, nunc dolor pellentesque mauris, non feugiat odio dui in dui. Aenean ut facilisis dui. Etiam in rutrum nisi. Quisque porta scelerisque est, sit ame.</p>
                                 </blockquote>
                                 <div class="testimonial-author">
@@ -158,4 +184,63 @@ UI/UX Design">
         <div class="clear"></div>
     </section>
 </div>
+<section class="wrapper two-columns-form">
+    <div class="container">
+<div class="row">
+    <div class="col col-sm-6">
+        <div class="text-block">
+            <h2 style="font-size: 32px;font-weight: 700;letter-spacing: 0;font-variant: none;color: #33475b;">Ready to get started? Talk to us today</h2>
+            <p>We’re here and ready to help you get your next project going. Let’s chat about how our friendly, expert team can create a solution to suit what you need.</p>
+            <p>For a FREE strategy session, simply leave your details below and we’ll contact you soon.</p>
+        </div>
+    </div>
+    <div class="col col-sm-6" style="margin:0px;">
+        <div class="form-wrap">
+            <div class="gf_browser_chrome gform_wrapper" id="gform_wrapper_1">
+                <form method="post"  action="<?php ROOT_URL?>/sts/pages/posts.php">
+
+                    <?php
+                    if(isset($_SESSION['message'])) {?>
+                    <div class="alert alert-success">
+                        <?php echo $_SESSION['message'];?>
+                    </div>
+                    <?php }?>
+                    <div class="gform_body">
+                        <ul id="gform_fields_1" class="gform_fields top_label form_sublabel_below description_below">
+                            <li id="field_1_4" class="gfield col-sm-6 gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible">
+                                <label class="gfield_label" for="input_1_4">First Name<span class="gfield_required">*</span></label>
+                                <div class="ginput_container ginput_container_text"><input name="first_name" id="input_1_4" type="text" value="" class="medium" placeholder="First Name *" aria-required="true" aria-invalid="false">
+                                </div>
+                            </li>
+                            <li id="field_1_10" style="margin-left:0;"class="gfield col-sm-6 gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible">
+                                <label class="gfield_label" for="input_1_10">Last Name<span class="gfield_required">*</span></label>
+                                <div class="ginput_container ginput_container_text"><input name="last_name" id="input_1_10" type="text" value="" class="medium" placeholder="Last Name *" aria-required="true" aria-invalid="false"></div>
+                            </li>
+                            <li id="field_1_5" style="margin-left:0;"class="gfield col-sm-6 gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible">
+                                <label class="gfield_label" for="input_1_5">Email<span class="gfield_required">*</span></label>
+                                <div class="ginput_container ginput_container_email">
+                                    <input name="email" id="input_1_5" type="email" value="" class="medium" placeholder="Email *" aria-required="true" aria-invalid="false">
+                                </div>
+                            </li>
+                            <li id="field_1_3" style="margin-left:0;" class="gfield col-sm-6 gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible">
+                                <label class="gfield_label" for="input_1_3">Phone<span class="gfield_required">*</span></label>
+                                <div class="ginput_container ginput_container_phone">
+                                    <input name="phone" id="input_1_3" type="tel" value="" class="medium" placeholder="Phone *" aria-required="true" aria-invalid="false"></div>
+                            </li>
+                            <li id="field_1_6" class="gfield details field_sublabel_below field_description_below gfield_visibility_visible"><label style="margin-top:10px;" class="gfield_label" for="input_1_6">Project Details</label>
+                                <div class="ginput_container ginput_container_textarea">
+                                    <textarea name="projectDetails" id="input_1_6" class="textarea medium" placeholder="Project Details" aria-invalid="false" rows="10" cols="50"></textarea>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                        <input type="submit" name="submit" id="gform_submit_button_1" class="gform_button button" value="Submit" onclick="if(window[&quot;gf_submitting_1&quot;]){return false;}  if( !jQuery(&quot;#gform_1&quot;)[0].checkValidity || jQuery(&quot;#gform_1&quot;)[0].checkValidity()){window[&quot;gf_submitting_1&quot;]=true;}  " onkeypress="if( event.keyCode == 13 ){ if(window[&quot;gf_submitting_1&quot;]){return false;} if( !jQuery(&quot;#gform_1&quot;)[0].checkValidity || jQuery(&quot;#gform_1&quot;)[0].checkValidity()){window[&quot;gf_submitting_1&quot;]=true;}  jQuery(&quot;#gform_1&quot;).trigger(&quot;submit&quot;,[true]); }"> <input type="hidden" name="gform_ajax" value="form_id=1&amp;title=&amp;description=&amp;tabindex=0">
+                </form>
+            </div>
+            </div>
+    </div>
+</div>
+</div>
+</section>
 <?php include_once("footer.php");?>

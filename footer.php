@@ -77,11 +77,20 @@
 </script>
 <script type="text/javascript">
     // Google Analytics + Opt-out
+    <?php if(isset($sliderIsActive)){?>
     setInterval(function(){if(scrollY>=400){
         $('#header').addClass('navbar navbar-fixed-top top-nav-collapse row1 nav-width');
     }else{
         $('#header').removeClass('navbar navbar-fixed-top top-nav-collapse nav-width');
     }},100);
+    <?php }else{?>
+    setInterval(function(){if(scrollY>=10){
+        $('#header').addClass('navbar navbar-fixed-top top-nav-collapse row1 nav-width');
+    }else{
+        $('#header').removeClass('navbar navbar-fixed-top top-nav-collapse nav-width');
+    }},100);
+
+    <?php } ?>
     var href=window.location.href;
     href=href.split('/').pop();
     var e=$('#topnav ul li a');
